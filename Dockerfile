@@ -1,6 +1,6 @@
-FROM agileworks/java7_maven_dockerfile
+FROM alonsochang/maven
 COPY ./ /app
-COPY ~/.m2 /root/.m2
+COPY .m2 /root/.m2
 EXPOSE 8000
 
 WORKDIR /app

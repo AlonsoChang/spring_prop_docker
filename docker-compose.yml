@@ -1,5 +1,5 @@
 server:
-  image: alonsochang/maven
+  image: alonsochang/spring_prop
   command: "/bin/bash -c 'cd data-rest && mvn spring-boot:run'"
   working_dir: /app
   volumes:
